@@ -1,7 +1,9 @@
 [package]
-name = "otp_vault"
+name = "otp-vault"
 version = "0.1.0"
 edition = "2018"
+description = "Use your FIDO2/U2F key for TOTP codes"
+authors = ["Bruno Carvalhal <hello@brunocarvalhal.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -10,3 +12,4 @@ rand = "0.8.4"
 ring = "0.16.20"
 data-encoding = "2.3.2"
 bitreader = "0.3.4"
+clap = { version = "3.0.0", features = ["derive"] }
